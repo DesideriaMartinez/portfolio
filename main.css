@@ -1,0 +1,58 @@
+ /*css for portfolio site*/
+body {
+    font-family: "Helvetica", Arial, sans-serif;
+    padding: 0;
+    border: 0; 
+    margin: 0;
+}
+/*code from CSS-tricks.com for new way to center and fixed background images*/
+html {
+    background: url(images/pinecones_edited.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header {
+    color: yellow;
+    font-size: 20px;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 50px;   
+}
+
+#tagline {
+    color: rgb(125, 144, 177); 
+    position: fixed;
+    margin-top:155px;
+    margin-left: 50px; 
+}
+
+#main {
+    color: yellow;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 320px; 
+    margin-left: 50px;
+    
+}
+
+#footer {
+    color: yellow;
+    position: fixed; 
+    margin-top: 525px; 
+    margin-left: 50px; 
+    border-color: yellow;
+    border-width: 1 px;
+    border-style: solid;
+    
+    
+}
+/*to change color when user hovers over heading*/
+h3:hover {
+    background-color: rgb(125, 144, 170);
+}
+
+
+
